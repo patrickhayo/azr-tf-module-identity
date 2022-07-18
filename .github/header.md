@@ -1,3 +1,3 @@
-# azr-tf-module-template
+# azr-tf-module-identity
 
-Terraform Module Template
+Terraform Module to create a ```Managed Identities``` in Azure
