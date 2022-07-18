@@ -8,7 +8,7 @@ on:
       - 'examples/**'
       - 'testing/**'
       - 'LICENSE'
-      - 'README.md'
+      - '*.md'
       - '.gitignore'
   push:
     tags:
