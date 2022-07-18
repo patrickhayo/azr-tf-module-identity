@@ -3,9 +3,9 @@ name: Generate terraform docs
 on:
   push: 
    branches: 
-      - release/*
+    - 'release/**'
   pull_request:
-      - release/*
+     - 'release/**'
 
 jobs:
   docs:

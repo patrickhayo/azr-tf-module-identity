@@ -8,8 +8,9 @@ on:
       - 'examples/**'
       - 'testing/**'
       - 'LICENSE'
-      - '*.md'
+      - '**.md'
       - '.gitignore'
+
   push:
     tags:
       - 'v*'
