@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Features
 
 - Initial Commit
-- Create ```Managed Identities``
+- Create ```Managed Identities```
 
 [Unreleased]: https://github.com/patrickhayo/azr-tf-module-identity/compare/1.0.0...HEAD
 
