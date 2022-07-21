@@ -33,9 +33,7 @@ content: |-
   {{ .Resources }}
   
   {{ .Inputs }}
-  
-  {{ .Modules }}
-  
+    
   {{ .Outputs }}
   
   {{ .Footer }}
