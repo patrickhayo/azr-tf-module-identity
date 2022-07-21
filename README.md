@@ -3,11 +3,7 @@
 Terraform Module to create a **Managed Identities** in Azure
 
 <!-- BEGIN_TF_DOCS -->
-/**
- * ## Prerequisites
- *
- * - [Terraform](https://www.terraform.io) v0.12+
- */
+## Prerequisites
 
 ## Providers
 
@@ -74,13 +70,7 @@ output "identity_ids" {
 | <a name="output_ids"></a> [ids](#output\_ids) | Contains a list of the the identity id of the identities |
 | <a name="output_principal_ids"></a> [principal\_ids](#output\_principal\_ids) | Contains a list of the the identity principal\_id of the identities |
 
-## Authors
 
-Originally created by [Patrick Hayo](http://github.com/patrickhayo)
-
-## License
-
-[MIT](LICENSE) License - Copyright (c) 2022 The terraform-docs Authors.
 <!-- END_TF_DOCS -->
 
 ## Authors
