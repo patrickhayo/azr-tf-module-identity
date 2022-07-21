@@ -1,3 +1,5 @@
-# azr-tf-module-identity
-
-Terraform Module to create a **Managed Identities** in Azure
+/**
+ * ## Prerequisites
+ * 
+ * - [Terraform](https://www.terraform.io) v0.12+
+ */
