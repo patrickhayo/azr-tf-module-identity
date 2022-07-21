@@ -60,10 +60,6 @@ output "identity_ids" {
 | <a name="input_identities"></a> [identities](#input\_identities) | Identity configuration | <pre>list(object({<br>    name                = string<br>    location            = string<br>    resource_group_name = string<br>    tags                = map(any)<br>  }))</pre> | n/a | yes |
 | <a name="input_tags"></a> [tags](#input\_tags) | (Optional) Specifies tags for all the resources | `map` | `{}` | no |
 
-## Modules
-
-No modules.
-
 ## Outputs
 
 | Name | Description |
