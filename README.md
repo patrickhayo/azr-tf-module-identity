@@ -5,11 +5,9 @@ Terraform Module to create a **Managed Identities** in Azure
 <!-- BEGIN_TF_DOCS -->
 ## Prerequisites
 
-## Providers
-
-| Name | Version |
-|------|---------|
-| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | >=2.36.0 |
+- [Terraform](https://www.terraform.io) v0.12+
+- [terraform-docs](https://github.com/terraform-docs/terraform-docs) v0.10+
+- [terraform-docs/gh-actions](https://github.com/terraform-docs/gh-actions) v0.4+
 
 ## Requirements
 
@@ -18,36 +16,15 @@ Terraform Module to create a **Managed Identities** in Azure
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >=0.14.9 |
 | <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | >=2.36.0 |
 
-## Example
+## Providers
 
-```hcl
-resource "azurerm_resource_group" "this" {
-  name     = uuid()
-  location = "westeurope"
-}
+| Name | Version |
+|------|---------|
+| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | >=2.36.0 |
 
-module "identities" {
-  source = "./module"
-  identities = [
-    {
-      name : "Example_1_identity"
-      location : azurerm_resource_group.this.location
-      resource_group_name : azurerm_resource_group.this.name
-      tags : var.tags
-    },
-    {
-      name : "Example_2_identity"
-      location : azurerm_resource_group.this.location
-      resource_group_name : azurerm_resource_group.this.name
-      tags : var.tags
-    }
-  ]
-}
+## Modules
 
-output "identity_ids" {
-  value = module.identities.ids
-}
-```
+No modules.
 
 ## Resources
 
@@ -69,8 +46,6 @@ output "identity_ids" {
 | <a name="output_client_ids"></a> [client\_ids](#output\_client\_ids) | Contains a list of the the identity client\_id  of the identities |
 | <a name="output_ids"></a> [ids](#output\_ids) | Contains a list of the the identity id of the identities |
 | <a name="output_principal_ids"></a> [principal\_ids](#output\_principal\_ids) | Contains a list of the the identity principal\_id of the identities |
-
-
 <!-- END_TF_DOCS -->
 
 ## Authors
