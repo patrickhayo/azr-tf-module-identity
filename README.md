@@ -54,4 +54,4 @@ Originally created by [Patrick Hayo](http://github.com/patrickhayo)
 
 ## License
 
-[MIT](LICENSE) License - Copyright (c) 2022 The terraform-docs Authors.
+[MIT](LICENSE) License - Copyright (c) 2022 by the Author.
