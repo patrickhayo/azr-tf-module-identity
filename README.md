@@ -5,7 +5,7 @@
 <!-- BEGIN_TF_DOCS -->
 ## Prerequisites
 
-- [Terraform](https://releases.hashicorp.com/terraform/) v0.12+
+- [Terraform](https://www.terraform.io) v0.12+
 
 ## Providers
 
